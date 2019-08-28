@@ -1,6 +1,6 @@
 ARG ARCH=amd64
 
-FROM golang:1.10.0 AS builder-amd64
+FROM golang:1.11.0 AS builder-amd64
 
 FROM arm32v6/golang:1.10.0 AS builder-arm32v6
 
